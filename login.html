@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Know Base - Logar</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
+							<h1>KnowBase</h1>
+							<p>Base de Conhecimento Special</p>
+						</header>
+						
+						<hr />
+						<h2>Efetuar Login</h2>
+						<form method="post" action="#">
+							<div class="field">
+								<input type="text" name="matricula" id="matricula" placeholder="Matrícula" />
+							</div>
+							<div class="field">
+								<input type="password" name="password" id="password" placeholder="Senha" />
+							</div>
+							
+							<ul class="actions">
+								<li><a href="#" class="button">Continuar</a></li>
+							</ul>
+						</form>
+						<hr />
+						
+						<footer>
+							<ul class="icons"><!--Para mudar imagem dos ícones, pesquisar fa icons-->
+								<li><a href="index.html" class="fa-arrow-left">Retornar</a></li>
+								<!--<li><a href="#" class="fa-sign-in">Cadastrar</a></li>-->
+								<li><a href="recuperar.html" class="fa-unlock">Recuperar acesso</a></li>
+							</ul>
+						</footer>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<!--<li>&copy; Equipe Special</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>-->
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+
+	</body>
+</html>
